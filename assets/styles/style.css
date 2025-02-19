@@ -10,6 +10,9 @@
     max-width: 1100px !important;
     padding-top: 30px;
 }
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
 .vip{
     background: rgb(183,138,89);
 background: linear-gradient(90deg, rgba(183,138,89,1) 9%, rgba(219,177,135,1) 41%, rgba(183,138,89,1) 66%);
