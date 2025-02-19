@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Lifee</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <ul class="list-group mt-5">
+                    <li class="list-group-item">My Dashboard</li>
+                    <li class="list-group-item">Order history</li>
+                    <li class="list-group-item">Subscriptions</li>
+                    <li class="list-group-item">Payment Methods</li>
+                    <li class="list-group-item">Account details</li>
+                    <li class="list-group-item">Address book</li>
+                    <li class="list-group-item">Partner Discounts</li>
+                    <li class="list-group-item">Logout</li>
+                </ul>
+                
+            </div>
+            <div class="col-md-8">
+                <div class="alert alert-info alert-dismissible fade show" role="alert">
+                    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <h2>WELCOME BACK, JASON</h2>
+                <div class="vip">
+                    <h3><b>MINI VIP</b></h3>
+                    <p>Tap To See Current Giveaways</p>
+                </div>
+                <button class="card-btn">My Card</button>
+                <div class="divider">
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <button class="card-btn">Draws</button>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="card-btn">Games</button>
+                    </div>
+                </div>
+                <div class="alert alert-info alert-dismissible fade show" role="alert">
+                    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <div class="tab" onclick="toggleTab(0)">
+                    <h2>ACTIVE DRAWS</h2>
+                    <i class="fas fa-chevron-down icon rotate"></i>
+                </div>
+                <div class="content active">
+                    <div class="tab-card">
+                        <h4>MERCEDES AMG GLS C635</h4>
+                        <p>Draw date: 17 January 2025</p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/images/mercedes.png" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="d-flex justify-content-between" style="max-width: 80%;">
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                        <button class="card-btn">GET MORE</button>
+                        <div class="divider"></div>
+                        <div class="d-flex justify-content-center flex-column align-items-center">
+                            <span class="mb-3" style="color: grey;">View Entry Numbers</span>
+                            <i class="fas fa-chevron-down icon "></i>
+                        </div>
+                    </div>
+                    <div class="tab-card">
+                        <h4>MERCEDES AMG GLS C635</h4>
+                        <p>Draw date: 17 January 2025</p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/images/mercedes.png" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="d-flex justify-content-between" style="max-width: 80%;">
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                        <button class="card-btn">GET MORE</button>
+                        <div class="divider"></div>
+                        <div class="d-flex justify-content-center flex-column align-items-center">
+                            <span class="mb-3" style="color: grey;">View Entry Numbers</span>
+                            <i class="fas fa-chevron-down icon "></i>
+                        </div>
+                    </div>
+                    <div class="tab-card">
+                        <h4>MERCEDES AMG GLS C635</h4>
+                        <p>Draw date: 17 January 2025</p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/images/mercedes.png" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="d-flex justify-content-between" style="max-width: 80%;">
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                        <button class="card-btn">GET MORE</button>
+                        <div class="divider"></div>
+                        <div class="d-flex justify-content-center flex-column align-items-center">
+                            <span class="mb-3" style="color: grey;">View Entry Numbers</span>
+                            <i class="fas fa-chevron-down icon "></i>
+                        </div>
+                    </div>
+                    <div class="tab-card">
+                        <h4>MERCEDES AMG GLS C635</h4>
+                        <p>Draw date: 17 January 2025</p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/images/mercedes.png" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="d-flex justify-content-between" style="max-width: 80%;">
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                        <button class="card-btn">GET MORE</button>
+                        <div class="divider"></div>
+                        <div class="d-flex justify-content-center flex-column align-items-center">
+                            <span class="mb-3" style="color: grey;">View Entry Numbers</span>
+                            <i class="fas fa-chevron-down icon "></i>
+                        </div>
+                    </div>
+                    <div class="tab-card">
+                        <h4>MERCEDES AMG GLS C635</h4>
+                        <p>Draw date: 17 January 2025</p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/images/mercedes.png" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="d-flex justify-content-between" style="max-width: 80%;">
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                        <button class="card-btn">GET MORE</button>
+                        <div class="divider"></div>
+                        <div class="d-flex justify-content-center flex-column align-items-center">
+                            <span class="mb-3" style="color: grey;">View Entry Numbers</span>
+                            <i class="fas fa-chevron-down icon "></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab" onclick="toggleTab(1)">
+                    <h2>IN-PERSON EVENT PROMO</h2>
+                    <i class="fas fa-chevron-down icon"></i>
+                </div>
+                <div class="content">
+                    <div class="tab-card">
+                        <h4>MERCEDES AMG GLS C635</h4>
+                        <p>Draw date: 17 January 2025</p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/images/mercedes.png" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="d-flex justify-content-between" style="max-width: 80%;">
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                        <button class="card-btn">GET MORE</button>
+                        <div class="divider"></div>
+                        <div class="d-flex justify-content-center flex-column align-items-center">
+                            <span class="mb-3" style="color: grey;">View Entry Numbers</span>
+                            <i class="fas fa-chevron-down icon "></i>
+                        </div>
+                    </div>
+                    <div class="tab-card">
+                        <h4>MERCEDES AMG GLS C635</h4>
+                        <p>Draw date: 17 January 2025</p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/images/mercedes.png" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="d-flex justify-content-between" style="max-width: 80%;">
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                        <button class="card-btn">GET MORE</button>
+                        <div class="divider"></div>
+                        <div class="d-flex justify-content-center flex-column align-items-center">
+                            <span class="mb-3" style="color: grey;">View Entry Numbers</span>
+                            <i class="fas fa-chevron-down icon "></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab" onclick="toggleTab(2)">
+                    <h2>PAST DRAWS</h2>
+                    <i class="fas fa-chevron-down icon"></i>
+                </div>
+                <div class="content">
+                    <div class="tab-card">
+                        <h4>MERCEDES AMG GLS C635</h4>
+                        <p>Draw date: 17 January 2025</p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/images/mercedes.png" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="d-flex justify-content-between" style="max-width: 80%;">
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                        <button class="card-btn">GET MORE</button>
+                        <div class="divider"></div>
+                        <div class="d-flex justify-content-center flex-column align-items-center">
+                            <span class="mb-3" style="color: grey;">View Entry Numbers</span>
+                            <i class="fas fa-chevron-down icon "></i>
+                        </div>
+                    </div>
+                    <div class="tab-card">
+                        <h4>MERCEDES AMG GLS C635</h4>
+                        <p>Draw date: 17 January 2025</p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/images/mercedes.png" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="d-flex justify-content-between" style="max-width: 80%;">
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <p>ONCE OFF</p>
+                                        <h2>0</h2>
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                        <button class="card-btn">GET MORE</button>
+                        <div class="divider"></div>
+                        <div class="d-flex justify-content-center flex-column align-items-center">
+                            <span class="mb-3" style="color: grey;">View Entry Numbers</span>
+                            <i class="fas fa-chevron-down icon "></i>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    function toggleTab(index) {
+                        let content = $('.content').eq(index);
+                        let icon = $('.icon').eq(index);
+                        
+                        if (content.hasClass('active')) {
+                            content.removeClass('active');
+                            icon.removeClass('rotate');
+                        } else {
+                            $('.content').removeClass('active');
+                            $('.icon').removeClass('rotate');
+                            content.addClass('active');
+                            icon.addClass('rotate');
+                        }
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
