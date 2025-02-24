@@ -25,9 +25,9 @@ background: linear-gradient(90deg, rgba(183,138,89,1) 9%, rgba(219,177,135,1) 41
     margin-bottom: 0px;
 }
 .card-btn{
-    background-color: #F6D700;
+    background-color: #E1FF00;
     color: #000;
-    border-radius: 4px;
+    border-radius: 25px;
     border: none;
     width: 100%;
     padding: 10px 20px;
@@ -215,4 +215,79 @@ a {
 }
 .navbar-toggler:focus {
     box-shadow: none;
+}
+.sidebar {
+    width: 250px;
+    height: 80vh;
+    background-color: #013d00;
+    color: #d4ff46;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 20px;
+}
+.btn-primary{
+    background-color: #3F3F3F !important;
+}
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.logo img{
+   width: 80px;
+}
+
+.logo span {
+    color: #d4ff46;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 20px 0;
+    transition:all 0.3s  ease-in-out;
+}
+.menu li:hover {
+    border-left: 2px solid #E1FF00;
+    padding-left: 8px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.menu li a i {
+    margin-right: 15px;
+    color: #d4ff46;
+    font-size: 16px;
+}
+
+.logout {
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+.logout a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.logout a i {
+    margin-right: 10px;
+    color: #d4ff46;
+    font-size: 16px;
 }
